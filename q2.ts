@@ -1,5 +1,9 @@
 function arrayStringify(a) {
-  /* Your code here */
+  let string = '';
+  for(let i = 0; i < a.length; i++){
+    string += a[i];
+  }
+  return string;
 }
 
 const c1 = [1, 2, 3];
@@ -11,3 +15,7 @@ console.log(arrayStringify(c2));
 console.log(arrayStringify(c3));
 
 module.exports = arrayStringify;
+
+/*รหัส นศ.: 660610784
+
+ชื่อ-สกุล : ภูริภัฏ อยู่สุวรรณ */
