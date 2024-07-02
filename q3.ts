@@ -1,7 +1,8 @@
 function primeNumber(a) {
-  if(a <= 3) return "Yes";
-  if(a % 2 === 0 || a % 3 === 0) return "NO";
-  return "Yes";
+  for(let i =2; i < a-1; i++){
+    if(a % i === 0) return "NO";
+  }
+  return "YES";
 }
 
 const d1 = 10;
